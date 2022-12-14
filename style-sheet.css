@@ -1,6 +1,14 @@
-h1{font-family: 'Rubik 80s Fade', cursive;
+h1{font-family: 'Hanalei Fill', cursive;;
+    color: rgba(155, 159, 158, 0.751);
 }
 
+h5{font-family: 'Rubik 80s Fade', cursive;
+}
+
+body<{
+   background-color: rgba(191, 192, 194, 0.615);
+}
+     
 .photo1{
     height: 200px;
    margin: 10px;
@@ -39,8 +47,9 @@ li:nth-child(3){
 div{
     text-align: center;
 }
-
-
+.high{
+    background-color: blueviolet;
+}
 
     
 

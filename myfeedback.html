@@ -6,18 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body> 
+<body>
+    <h1>My feedback form</h1> 
     <ul>
-          
+        <div>
         <li><label>name</label>
-        <input type="text" name="name"></li>
-        <li>Email</li>
-        <li>Password</li>
+        <input type="text" name="name"></li> <br>
+        <li><label>Email</label>
+        <input type="text" name="Email"></li><br>
+        <li><label>Password</label>
+        <input type="text" name="password"></li><br>
+        </div>  
+        <div>
+        <li>Please check all the emotions that apply to you: </li>
+        <ul>
+            <li>Angry<input type="checkbox" name="angry"></li>
+            <li>Sad<input type="checkbox" name="Sad"></li>
+            <li>Happy<input type="checkbox" name="Happy"></li>
+            <li>Ambivalent<input type="checkbox" name="Ambivalent"></li><br>
+        </ul>
+        </div>
+        <div>   
+            <li>How satisfied were you with our sevice? </li>
+            <ul>
+                <li>Very satisfied<input type="radio" name="Very satisfied"></li>
+                <li>satisfied<input type="radio" name="satisfied"></li>
+                <li>Didn't care<input type="radio" name="Didn't care"></li>
+                <li>Dissatisfied<input type="radio" name="Dissatisfied"></li>
+                <li>Very dissatisfied<input type="radio" name="Very dissatisfied"></li><br>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>Futher comments: <input type="text"name="Further comments"></li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>Bio photo: <input type="text" ><button>choose...</button></li>
+                <li>Location visited:
+                     <select>
+                        <option value="none" selected disabled hidden>Select Location</option>>
+                        <option value="Tel aviv">Tel aviv</option>
+                        <option value="Haifa">Haifa</option>
+                        <option value="Eilat">Eilat</option>
+                    </select></li>
+            </ul>
+        </div>
+  
+        <div>
 
-
-
-
-
+    <li><button>Submit</button>></li>
+   
+        </div>
     </ul> 
 </body>
 </html>
